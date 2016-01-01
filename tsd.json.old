@@ -6,7 +6,7 @@
   "bundle": "typings/tsd.d.ts",
   "installed": {
     "eventemitter3/eventemitter3.d.ts": {
-      "commit": "a461a243e2e09b213bc49d12650f80d81047576d"
+      "commit": "e15d282bf0281072ce51d48633a4d3e225279a06"
     }
   }
 }
