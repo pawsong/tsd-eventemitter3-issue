@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "tsd-eventemitter3-issue",
+  "version": "1.0.0",
+  "description": "Reproduces tsd eventemitter3 issue",
+  "scripts": {
+    "clean": "rimraf lib typings",
+    "compile:issue": "npm run clean && cp tsd.json.new tsd.json && npm run compile:exec",
+    "compile:noissue": "npm run clean && cp tsd.json.old tsd.json && npm run compile:exec",
+    "compile:exec": "tsd install && tsc"
+  },
+  "author": "Giff Song <giff.song@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "eventemitter3": "^1.1.1"
+  },
+  "devDependencies": {
+    "rimraf": "^2.5.0",
+    "tsd": "^0.6.5",
+    "typescript": "^1.7.5"
+  }
+}

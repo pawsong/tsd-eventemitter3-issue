@@ -1,0 +1,5 @@
+node_modules
+lib
+typings
+tsd.json
+npm-debug.log
